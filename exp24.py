@@ -1,3 +1,7 @@
+# Write a program to read a 3 text files on any technical concept with at least
+# 20 sentences and 150 words. Implement one-hot encoding. 
+
+
 from sklearn.preprocessing import MultiLabelBinarizer
 # Step 1: File names (assuming they already exist in the same folder)
 file_names = ['ml.txt', 'blockchain.txt', 'cloudcomputing.txt']

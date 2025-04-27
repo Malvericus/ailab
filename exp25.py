@@ -1,3 +1,5 @@
+# Write a program to read a 3 text files on a movie review with at least 20
+# sentences and 150 words. Implement bag of words. 
 from sklearn.feature_extraction.text import CountVectorizer
 # Step 1: File names (assuming you already have the text files)
 file_names = ['review1.txt', 'review2.txt', 'review3.txt']

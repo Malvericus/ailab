@@ -1,3 +1,12 @@
+# Write a program to read a text file with at least 30 sentences and 200 words
+# and perform the following tasks in the given sequence.
+# a. Text cleaning by removing punctuation/special characters, numbers
+# and extra white spaces. Use regular expression for the same.
+# b. Convert text to lowercase
+# c. Tokenization
+# d. Remove stop words
+# e. Correct misspelled words
+
 import re
 from spellchecker import SpellChecker
 def process_text_file(file_path):

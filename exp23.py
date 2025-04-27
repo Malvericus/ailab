@@ -1,3 +1,12 @@
+# Write a program to read a text file with at least 30 sentences and 200 words
+# and perform the following tasks in the given sequence.
+# a. Text cleaning by removing punctuation/special characters, numbers
+# and extra white spaces. Use regular expression for the same.
+# b. Convert text to lowercase
+# c. Stemming and Lemmatization
+# d. Create a list of 3 consecutive words after lemmatization
+
+
 import re
 import nltk
 from nltk.stem import PorterStemmer

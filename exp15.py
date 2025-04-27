@@ -1,3 +1,7 @@
+# Implement any two-player game ( Modified Tic-Tac-Toe, Nim Game,
+# Connect Four Game or Gomoku Game ) using min-max algorithm such
+# that in every play either computer wins or it is a draw. 
+
 import random
 def nim_game():
     print("\n=== NIM GAME ===")

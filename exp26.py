@@ -1,3 +1,7 @@
+# Write a program to read a 3 text files a tourist place with at least 20
+# sentences and 150 words. Implement TF-IDF. 
+
+
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 # Step 1: File names
