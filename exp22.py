@@ -56,5 +56,6 @@ def process_text_file(file_path):
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(final_text)
     print(f"Processed text saved to: {output_file}")
-if __name__ == "__main__":
-    process_text_file("ailab\sample_text.txt")
+    
+
+process_text_file("ailab\sample_text.txt")

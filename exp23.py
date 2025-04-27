@@ -57,5 +57,5 @@ def process_text_file(file_path):
         for i, triplet in enumerate(triplets):
             f.write(f"{i+1}. {triplet}\n")
     print(f"\nProcessed text saved to: {output_file}")
-if __name__ == "__main__":
-    process_text_file("ailab/sample_text.txt")
+
+process_text_file("ailab/sample_text.txt")

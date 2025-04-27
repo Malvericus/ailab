@@ -25,20 +25,18 @@ def nim_game():
             current_player = "player"
         else:
             # Player's move
-            try:
-                move = int(input("Your turn! Take 1, 2, or 3 sticks: "))
-                if move < 1 or move > 3 or move > sticks:
-                    print("Invalid move. Try again.")
-                    continue
-            except ValueError:
-                print("Please enter a number.")
+            move = int(input("Your turn! Take 1, 2, or 3 sticks: "))
+            
+            if move < 1 or move > 3 or move > sticks:
+                print("Invalid move. Try again.")
                 continue
+
             sticks -= move
             if sticks == 0:
                 print("\nYou win!")
                 return True
             current_player = "computer"
-# Start the game
+
 if __name__ == "__main__":
     while True:
         nim_game()
